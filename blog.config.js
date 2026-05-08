@@ -7,21 +7,9 @@ const blogConfig = {
   niche: "health",
   mainCategory: "건강·의료",
   subCategories: ["증상 정보", "건강검진", "영양제", "운동법", "다이어트"],
-  adsense: {
-    publisherId: "ca-pub-XXXXXXXXXXXXXXXX",
-    enabled: false,
-  },
-  theme: {
-    primary: "#dc2626",
-    accent: "#dc2626",
-  },
-  author: {
-    name: "건강 전문 에디터",
-    bio: "건강·의료 분야의 전문 에디터입니다.",
-  },
-  social: {
-    email: "contact@health-letter.com",
-  },
+  adsense: { publisherId: "ca-pub-XXXXXXXXXXXXXXXX", enabled: false },
+  theme: { primary: "#dc2626", accent: "#dc2626" },
+  author: { name: "건강 전문 에디터", bio: "건강·의료 분야의 전문 에디터입니다." },
+  social: { email: "contact@health-letter.com" },
 };
-
 export default blogConfig;
